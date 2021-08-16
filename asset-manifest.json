@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Niclox100.github.io/static/css/main.fab1738d.chunk.css",
+    "main.js": "/Niclox100.github.io/static/js/main.3ac4372d.chunk.js",
+    "main.js.map": "/Niclox100.github.io/static/js/main.3ac4372d.chunk.js.map",
+    "runtime-main.js": "/Niclox100.github.io/static/js/runtime-main.a692c175.js",
+    "runtime-main.js.map": "/Niclox100.github.io/static/js/runtime-main.a692c175.js.map",
+    "static/js/2.2fa6ac34.chunk.js": "/Niclox100.github.io/static/js/2.2fa6ac34.chunk.js",
+    "static/js/2.2fa6ac34.chunk.js.map": "/Niclox100.github.io/static/js/2.2fa6ac34.chunk.js.map",
+    "index.html": "/Niclox100.github.io/index.html",
+    "static/css/main.fab1738d.chunk.css.map": "/Niclox100.github.io/static/css/main.fab1738d.chunk.css.map",
+    "static/js/2.2fa6ac34.chunk.js.LICENSE.txt": "/Niclox100.github.io/static/js/2.2fa6ac34.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/Niclox100.github.io/static/media/hiroto2.0586c1dd.jpg",
+    "static/media/kanade.c16d7d4c.jfif": "/Niclox100.github.io/static/media/kanade.c16d7d4c.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a692c175.js",
+    "static/js/2.2fa6ac34.chunk.js",
+    "static/css/main.fab1738d.chunk.css",
+    "static/js/main.3ac4372d.chunk.js"
+  ]
+}
