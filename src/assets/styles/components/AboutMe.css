@@ -1,0 +1,17 @@
+.aboutme-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 200px;
+}
+
+.aboutme-title
+{
+    text-align: center;
+}
+
+.aboutme-technologies
+{
+    margin-right: 100px;
+}
+
