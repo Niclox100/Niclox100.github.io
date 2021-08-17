@@ -7,18 +7,18 @@ const AboutMe = () => {
     return(
         <article className="aboutme-container">
             <div className="aboutme-info">
-                <h2 className="aboutme-title">Sobre Mi</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium exercitationem necessitatibus amet magni nobis minus possimus sequi. Asperiores placeat ex magnam temporibus minus maxime? Quidem porro doloribus explicabo nulla!
+                <h2 className="aboutme-title white-font">Sobre Mi</h2>
+                <div className="white-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae iure, perspiciatis ex voluptatem harum saepe. Adipisci voluptates amet modi non nostrum, culpa fuga iusto quam incidunt tempore odit aliquid!</div>
             </div>
-            <div className="aboutme-technologies">
-                <h2 className="aboutme-title">Tecnologias que manejo</h2>
+            <div className="aboutme-technologies white-font">
+                <h2 className="aboutme-title white-font">Tecnologias que manejo</h2>
                 <Carousel>
                     <div>
                         <figure className="carousel-image-container">
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">Html</span>
+                            <span className="carousel-description white-font">Html</span>
                         </div>
                     </div>
                     <div>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">Css</span>
+                            <span className="carousel-description white-font">Css</span>
                         </div>
                     </div>
                     <div>
@@ -34,7 +34,7 @@ const AboutMe = () => {
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">React</span>
+                            <span className="carousel-description white-font">React</span>
                         </div>
                     </div>
                     <div>
@@ -42,7 +42,7 @@ const AboutMe = () => {
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">Git</span>
+                            <span className="carousel-description white-font">Git</span>
                         </div>
                     </div>
                     <div>
@@ -50,7 +50,7 @@ const AboutMe = () => {
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">Github</span>
+                            <span className="carousel-description white-font">Github</span>
                         </div>
                     </div>
                     <div>
@@ -58,7 +58,7 @@ const AboutMe = () => {
                             <img className="carousel-image" src={kanade} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description">Jest</span>
+                            <span className="carousel-description white-font">Jest</span>
                         </div>
                     </div>
 
