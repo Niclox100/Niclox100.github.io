@@ -42,12 +42,67 @@
   
   .carousel-image-container
   {
+
   }
 
   .carousel-image
   {
     width:200px;
-    height:200px;
-    border-radius:150px;
+    height:180px;
     object-fit: cover;
+    overflow: hidden;
   }
+
+  .html-image
+  {
+    object-position: 50% 140%;
+  }
+
+  .css-image
+  {
+    width: 170px;
+  }
+  .github-image
+  {
+    border-radius: 50%;
+    height: 200px;
+  }
+
+  .git-image
+  {
+    width: 190px;
+  }
+
+  .jest-image
+  {
+    width: 162px;
+    height: 180px;
+    padding-top: 8px;
+  }
+
+  .jest-container
+  {
+    margin-bottom: 4px;
+  }
+
+  .github-image-container
+  {
+    background-position-x: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 184px;
+    background-image: url("../../images/github.png");
+    background-position-y: 65%;
+    background-size: 400px;
+  }
+
+  .grow 
+  {
+    transition: all .2s ease-in-out;
+  }
+
+  .grow:hover
+  { 
+    transform: scale(1.1);
+  }
+

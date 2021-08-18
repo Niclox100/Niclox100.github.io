@@ -1,7 +1,11 @@
 import React from "react"
 import "../assets/styles/components/AboutMe.css"
 import Carousel from "./Carousel"
-import kanade from "../assets/images/kanade.jfif"
+import htmlImage from "../assets/images/html.png"
+import cssImage from "../assets/images/css.svg"
+import reactImage from "../assets/images/react.png"
+import gitImage from "../assets/images/git.png"
+import jestImage from "../assets/images/jest.png"
 
 const AboutMe = () => {
     return(
@@ -12,10 +16,10 @@ const AboutMe = () => {
             </div>
             <div className="aboutme-technologies white-font">
                 <h2 className="aboutme-title white-font">Tecnologias que manejo</h2>
-                <Carousel>
+                <Carousel className="carousel-main-container">
                     <div>
                         <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                            <img className="carousel-image html-image grow" src={htmlImage} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Html</span>
@@ -23,7 +27,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                            <img className="carousel-image css-image grow" src={cssImage} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Css</span>
@@ -31,7 +35,7 @@ const AboutMe = () => {
                     </div>
                     <div>
                     <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                            <img className="carousel-image react-image grow" src={reactImage} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">React</span>
@@ -39,29 +43,27 @@ const AboutMe = () => {
                     </div>
                     <div>
                         <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                            <img className="carousel-image git-image grow" src={gitImage} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Git</span>
                         </div>
                     </div>
                     <div>
-                        <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                        <figure className="carousel-image-container github-image-container grow">
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Github</span>
                         </div>
                     </div>
                     <div>
-                        <figure className="carousel-image-container">
-                            <img className="carousel-image" src={kanade} alt="" />
+                        <figure className="carousel-image-container jest-container">
+                            <img className="carousel-image jest-image grow" src={jestImage} alt="" />
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Jest</span>
                         </div>
                     </div>
-
                 </Carousel>
             </div>
         </article>
