@@ -12,7 +12,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "http://Niclox100.github.io/Portafolio",
+  "homepage": "http://Niclox100.github.io/portafolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

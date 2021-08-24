@@ -93,7 +93,7 @@ const Projects = () => {
                     <div className="projects-description hidden" id="as">
                        Proyecto de un buscador de personajes de Rick y Morty en el que se obtienen personajes a partir de un llamado a una api. En el podes filtrar entre personajes y agregarlos a una seccion de favoritos
                        <br />
-                       <Link to="/Portafolio/RickMorty">Ir al Proyecto</Link>
+                       <Link to="/portafolio/rickandmorty">Ir al Proyecto</Link>
                     </div>
                 </div>
                 <div className="projects-item">

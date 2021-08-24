@@ -11,7 +11,7 @@ const Header = () => {
         <h1>Rick and Morty Characters</h1>
 
       </div>
-      <Link to="/Portafolio" className="header-back">Volver a la Pagina Principal</Link>
+      <Link to="/portafolio" className="header-back">Volver a la Pagina Principal</Link>
     </>
   )}
           
