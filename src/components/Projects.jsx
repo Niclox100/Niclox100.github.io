@@ -79,7 +79,7 @@ const Projects = () => {
 
     return(
         <>
-            <h1 className="projects-title white-font">Proyectos de cursos</h1>
+            <h1 className="projects-title white-font">Proyectos de cursos terminados</h1>
             <div className="projects-container">
                 <div className="projects-item">
                     <div className="projects-image">

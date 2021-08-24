@@ -12,7 +12,10 @@ const AboutMe = () => {
         <article className="aboutme-container">
             <div className="aboutme-info">
                 <h2 className="aboutme-title white-font">Sobre Mi</h2>
-                <div className="aboutme-description white-font">Soy un Desarrollador con conocimientos en tecnologias de Frontend y me especializo en React. </div>
+                <div className="aboutme-description white-font">Soy un Desarrollador con conocimientos en tecnologias de Frontend y me especializo en React. 
+                <br />
+                Me gusta mucho todo lo relacionado con la tecnologia y con una predisposicion a aprender constantemente en este entorno en el que el cambio es algo constante.
+                 </div>
             </div>
             <div className="aboutme-technologies white-font">
                 <h2 className="aboutme-title white-font">Tecnologias que manejo</h2>
