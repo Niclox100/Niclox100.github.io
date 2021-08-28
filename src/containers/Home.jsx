@@ -6,7 +6,7 @@ import "../assets/styles/containers/Home.css"
 
 const Home = () => {
     return(
-        <div className="all">
+        <div className="background-image-home">
             <Intro/>
             <AboutMe/>
             <Projects/>

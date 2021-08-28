@@ -1,0 +1,48 @@
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.background-image-counter
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../../../images/fondonieve.jpg");
+    background-position-y: 60%;
+}
+
+.countdown-container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.counter-container
+{
+
+    padding: 5px;
+    text-align: center;
+}
+
+.counter-number
+{
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+
+.counter-text
+{
+    font-size: 1.3rem;
+}
+
+.countdown-title
+{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "../../src/components/Projects/Rick-Morty/Header"
-import Characters from "../../src/components/Projects/Rick-Morty/Characters"
+import Header from "../../src/components/Projects/RickMorty/Header"
+import Characters from "../../src/components/Projects/RickMorty/Characters"
 
 const RickMorty = () => {
     return(
