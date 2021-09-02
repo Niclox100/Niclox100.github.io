@@ -1,6 +1,7 @@
 import React from "react"
 import "../../../assets/styles/components/projects/NewYearCountdown/Counter.css"
 
+
 const newYearCounter = () => {
 
     const newYears = "1 Jan 2022"
@@ -39,23 +40,24 @@ const newYearCounter = () => {
 
     return(
         <>
-            <h1 className="countdown-title">New Years Eve</h1>
+            <a href="/portafolio" className="header-back">Volver a la Pagina Principal</a>
+            <h1 className="countdown-title">Tiempo hasta Año Nuevo</h1>
             <div className="countdown-container">
                 <div className="counter-container">
                     <p className="counter-number" id="days">0</p>
-                    <span className="counter-text">days</span>
+                    <span className="counter-text">dias</span>
                 </div>
                 <div className="counter-container">
                     <p className="counter-number" id="hours">0</p>
-                    <span className="counter-text">hours</span>
+                    <span className="counter-text">horas</span>
                 </div>
                 <div className="counter-container">
                     <p className="counter-number" id="mins">0</p>
-                    <span className="counter-text">mins</span>
+                    <span className="counter-text">minutos</span>
                 </div>
                 <div className="counter-container">
                     <p className="counter-number" id="seconds">0</p>
-                    <span className="counter-text">seconds</span>
+                    <span className="counter-text">segundos</span>
                 </div>
             </div>
         </>

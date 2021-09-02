@@ -1,7 +1,4 @@
-*
-{
-    box-sizing: border-box;
-}
+
 
 .main-container
 {
@@ -34,4 +31,10 @@
 .fav-del-button
 {
     margin-bottom: 10px;
+}
+
+.rickmorty-background
+{
+    min-width: 100vw;
+    min-height: 100vh;
 }

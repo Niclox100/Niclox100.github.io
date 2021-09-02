@@ -6,9 +6,11 @@ import NotFound from '../components/NotFound';
 import RickMorty from '../containers/RickMorty';
 import newYearCounter from '../containers/NewYearCounter';
 import QuizApp from "../containers/QuizApp"
+import SimonSays from '../containers/SimonSays';
 
 
 const App = () =>{
+    
     return(
             <BrowserRouter>
                 <Layout>       
@@ -17,6 +19,7 @@ const App = () =>{
                         <Route exact path="/portafolio/RickMorty" component={RickMorty} />
                         <Route exact path="/portafolio/NewYearCounter" component={newYearCounter} />
                         <Route exact path="/portafolio/QuizApp" component={QuizApp} />
+                        <Route exact path="/portafolio/SimonSays" component={SimonSays} />
                         <Route component={NotFound} />
                     </Switch>
                 </Layout>

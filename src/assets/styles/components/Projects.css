@@ -2,7 +2,6 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 15px;
 }
 
 .projects-title
@@ -62,7 +61,9 @@
 {
     position: absolute;
     top: 0;
-    right: 35%;
+    right: 0;
+    left: 0;
+    margin: auto;
     color:darkred;
     font-weight: bold;
     font-size: 20px;
@@ -83,4 +84,9 @@
     vertical-align: super;
     color: white;
     font-weight: 600;
+}
+
+.project-seemore-text.simon
+{
+   color: black;
 }

@@ -5,8 +5,10 @@ import Characters from "../../src/components/Projects/RickMorty/Characters"
 const RickMorty = () => {
     return(
         <>
-            <Header/>
-            <Characters/>
+            <div className="rickmorty-background">
+                <Header/>
+                <Characters/>
+            </div>
         </>
     )
 }
