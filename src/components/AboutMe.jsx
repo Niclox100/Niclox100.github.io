@@ -6,6 +6,7 @@ import cssImage from "../assets/images/css.svg"
 import reactImage from "../assets/images/react.png"
 import gitImage from "../assets/images/git.png"
 import jestImage from "../assets/images/jest.png"
+import nodeImage from "../assets/images/node.png"
 
 const AboutMe = () => {
     return(
@@ -41,7 +42,7 @@ const AboutMe = () => {
                             <img className="carousel-image react-image grow" src={reactImage} alt="reactImage" />
                         </figure>
                         <div className="carousel-description-container">   
-                            <span className="carousel-description white-font">React</span>
+                            <span className="carousel-description white-font">React.js</span>
                         </div>
                     </div>
                     <div>
@@ -65,6 +66,14 @@ const AboutMe = () => {
                         </figure>
                         <div className="carousel-description-container">   
                             <span className="carousel-description white-font">Jest</span>
+                        </div>
+                    </div>
+                    <div>
+                        <figure className="carousel-image-container">
+                            <img className="carousel-image node-image grow" src={nodeImage} alt="nodeImage" />
+                        </figure>
+                        <div className="carousel-description-container">   
+                            <span className="carousel-description white-font">Node.js</span>
                         </div>
                     </div>
                 </Carousel>

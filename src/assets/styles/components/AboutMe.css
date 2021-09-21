@@ -1,9 +1,11 @@
 .aboutme-container
 {
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 200px;
     min-height: 500px;
+    justify-content: center;
 }
 
 .aboutme-title
@@ -11,9 +13,14 @@
     text-align: center;
 }
 
+.aboutme-info
+{
+    overflow: hidden;
+}
 .aboutme-technologies
 {
     margin-right: 30px;
+    overflow: hidden;
 }
 
 .aboutme-description

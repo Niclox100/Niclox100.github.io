@@ -113,3 +113,8 @@
 {
   padding-top: 30px;
 }
+
+.node-image
+{
+  object-fit: contain;
+}

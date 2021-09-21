@@ -6,6 +6,9 @@
     list-style: none;
 }
 
+body
+{}
+
 .background-image-home
 {
     background-image: url("../../images/hiroto2.jpg");
